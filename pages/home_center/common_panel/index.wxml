@@ -1,0 +1,70 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+<wxs src="./index.wxs" module="utils" />
+
+<image class="common-panel-backgroud" src='/image/background.png'/>
+<navbar device_name="可控插座" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+<view class="common-panel-header">
+  <view class="common-panel-header-block">
+    <image class="socket_image" src='/image/插座.png'></image>
+   <image class="switch_image" src='/image/开关.png'></image> 
+   <view>开关</view>
+  </view>
+</view>
+
+
+<!--
+<view class='element_set'>
+	<view class='element_block'>
+    <image class="voltage_image" src='/image/background.png'></image>
+    <view>220.0v</view>
+	</view>
+	<view class='element'>
+    <image class="power_image" src='/image/功率.png'></image>
+    <view>66.6w</view>
+	</view>
+	<view class='element'>
+    <image class="electric_image" src='/image/电流.png'></image>
+    <view>521mA</view>
+	</view>
+</view>
+-->
+<view class='center_col'>
+	<view class='center_block'>
+    <image class="bottom_image" src='/image/电压表.png'></image>
+    <view>电压</view>
+    <view>220.0v</view>
+	</view>
+	<view class='center_block'>
+    <image class="bottom_image" src='/image/功率.png'></image>
+    <view>功率</view>
+    <view>66.6w</view>
+	</view>
+	<view class='center_block'>
+    <image class="bottom_image" src='/image/电流.png'></image>
+    <view>电流</view>
+    <view>520mA</view>
+	</view>
+</view>
+
+
+
+<view class='bottom_col'>
+	<view class='bottom_block'>
+		<image class="bottom_image" src='/image/电.png'></image>
+		<view>本次电量</view>
+	</view>
+	<view class='bottom_block'>
+		<image class="bottom_image" src='/image/倒计时.png'></image>
+		<view>倒计时</view>
+	</view>
+	<view class='bottom_block'>
+		<image class="bottom_image" src='/image/预约.png'></image>
+		<view>预约</view>
+  </view>
+  <view class='bottom_block'>
+		<image class="bottom_image" src='/image/月发电量.png'></image>
+		<view>月用电量</view>
+	</view>
+</view>
+
